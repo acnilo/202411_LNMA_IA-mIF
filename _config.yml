@@ -111,13 +111,13 @@ css_inline: true # Will insert all styles into a single <style> block in the <he
 
 # 8. Site favicons & manifest icons
 favicons: # Favicons are also used in the manifest file. Syntax is 'size: path'
-  16: '/assets/logos/LNMA Logo 2023.png'
-  32: '/assets/logos/LNMA Logo 2023.png'
+  16: '/assets/logos/LNMALogo_16pxs.png'
+  32: '/assets/logos/LNMALogo_16pxs.png'
   96: '/assets/logos/LNMA Logo 2023.png'
-  120: '/assets/logos/LNMA Logo 2023.png'
-  144: '/assets/logos/LNMA Logo 2023.png'
-  180: '/assets/logos/LNMA Logo 2023.png'
-  512: '/assets/logos/LNMA Logo 2023.png'
+  120: '/assets/logos/LNMALogo_16pxs.png'
+  144: '/assets/logos/LNMALogo_16pxs.png'
+  180: '/assets/logos/LNMALogo_16pxs.png'
+  512: '/assets/logos/LNMALogo_16pxs.png'
   1024: '/assets/logos/LNMA Logo 2023.png'
 
 # 9. Site navigation
