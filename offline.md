@@ -1,9 +1,9 @@
 ---
-title: Looks like you're offline
+title: Parece que estás desconectado
 indexing: false
 sitemap: false
 ---
 
-It appears that you've lost your network connection and this document doesn't exist on your device.
+Parece que has perdido la conexión a la red y este documento no existe en tu dispositivo.
 
-Try either returning to the previous page, using the navigation to find your way back, or restore your network connection.
+Intenta volver a la página anterior, usar la navegación para encontrar el camino de regreso o restaurar tu conexión a la red.
