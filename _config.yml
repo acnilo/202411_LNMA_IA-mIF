@@ -59,7 +59,7 @@ collections:
     description: "My thoughts and ideas" # The post list page content
     feature_text: |
       Welcome to the blog
-    feature_image: {{ site.url }}{{ site.baseurl }}'/assets/logos/LNMALogo_16pxs.png'
+    feature_image: {{ site.url }}{{ site.baseurl }}/assets/logos/LNMALogo_16pxs.png
 
 # 6. Jekyll collections settings
 defaults:
@@ -67,7 +67,7 @@ defaults:
     scope:
       path: ""
     values:
-      image: "/assets/default-social-image.png" # Default image for sharing
+      image: {{ site.url }}{{ site.baseurl }}/assets/default-social-image.png # Default image for sharing
   -
     scope:
       path: ""
@@ -101,14 +101,14 @@ css_inline: true # Will insert all styles into a single <style> block in the <he
 
 # 8. Site favicons & manifest icons
 favicons: # Favicons are also used in the manifest file. Syntax is 'size: path'
-  16: {{ site.url }}{{ site.baseurl }} '/assets/logos/LNMALogo_16pxs.png'
-  32: {{ site.url }}{{ site.baseurl }} '/assets/logos/LNMALogo_16pxs.png'
-  96: {{ site.url }}{{ site.baseurl }} '/assets/logos/LNMA Logo 2023.png'
-  120: {{ site.url }}{{ site.baseurl }} '/assets/logos/LNMALogo_16pxs.png'
-  144: {{ site.url }}{{ site.baseurl }} '/assets/logos/LNMALogo_16pxs.png'
-  180: {{ site.url }}{{ site.baseurl }} '/assets/logos/LNMALogo_16pxs.png'
-  512: {{ site.url }}{{ site.baseurl }} '/assets/logos/LNMALogo_16pxs.png'
-  1024: {{ site.url }}{{ site.baseurl }} '/assets/logos/LNMA Logo 2023.png'
+  16: {{ site.url }}{{ site.baseurl }}/assets/logos/LNMALogo_16pxs.png
+  32: {{ site.url }}{{ site.baseurl }}/assets/logos/LNMALogo_16pxs.png
+  96: {{ site.url }}{{ site.baseurl }}/assets/logos/LNMA Logo 2023.png
+  120: {{ site.url }}{{ site.baseurl }}/assets/logos/LNMALogo_16pxs.png
+  144: {{ site.url }}{{ site.baseurl }}/assets/logos/LNMALogo_16pxs.png
+  180: {{ site.url }}{{ site.baseurl }}/assets/logos/LNMALogo_16pxs.png
+  512: {{ site.url }}{{ site.baseurl }}/assets/logos/LNMALogo_16pxs.png
+  1024: {{ site.url }}{{ site.baseurl }}/assets/logos/LNMA Logo 2023.png
 
 # 9. Site navigation
 navigation_header:
