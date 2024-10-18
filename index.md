@@ -12,11 +12,11 @@ excerpt: "Taller de mIF e inteligencia artificial-aprendizaje profundo (AI-DL)"
 
 **Instructores:**
 <ul>
-    <li>Christopher Wood</li>
-    <li>Haydee Hernández</li>
+    <li>Sarái de León Rodríguez (IMSS-CMN Siglo XXI)</li>
+    <li>Christopher Wood (LNMA-UNAM)</li>
+    <li>Haydee Hernández (LNMA-UNAM)</li>
     <li>Jair Sánchez (LNMA-UNAM)</li>
     <li>Paul Hernández (UASLP)</li>
-    <li>Sarái de León Rodríguez (IMSS-CMN Siglo XXI)</li>
     <li>Andrea Lara (IIB-Universidad Galileo)</li>
     <li>Ana Valle (FABIQ-Universidad Galileo)</li>
     <li>Rodrigo Vargas (FABIQ-Universidad Galileo)</li>
