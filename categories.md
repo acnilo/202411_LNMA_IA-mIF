@@ -1,6 +1,6 @@
 ---
-title: Categories
+title: Programa
 layout: categories
-excerpt: "Category index"
+excerpt: "Program index"
 aside: true
 ---
