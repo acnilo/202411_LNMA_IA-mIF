@@ -37,5 +37,3 @@ Estamos comprometidos a hacer que este taller sea accesible para todos. Si neces
 
 ### Contacto
 Para más información, por favor envíe un correo electrónico a: [andrealh@galileo.edu](mailto:andrealh@galileo.edu)
-
-{% include button.html text="Material del curso" icon="drive" link="https://drive.google.com/drive/folders/1Jm9_aIGEk2-T0geeBIz_YFTtBhsBejt6?usp=sharing" color="#0366d6" %}
