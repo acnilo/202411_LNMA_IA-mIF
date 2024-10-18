@@ -3,14 +3,24 @@ title: Sobre el taller
 feature_text: |
   ### Taller sobre inmunofluorescencia multiplex (mIF) y aplicación de Inteligencia Artificial para el inmuno-perfilado en tejidos y biopsias
 feature_image: "/assets/Imagenes/FotoIlustrativaHorizontal.png"
-excerpt: "Alembic is a starting point for [Jekyll](https://jekyllrb.com/) projects. Rather than starting from scratch, this boilerplate is designed to get the ball rolling immediately. Install it, configure it, tweak it, push it."
+excerpt: "Taller de mIF e inteligencia artificial-aprendizaje profundo (AI-DL)"
 ---
 
 ### Universidad Galileo
-#### 18-20 de noviembre de 2024
-##### 09:00 am - 14:00 h
+**18-20 de noviembre de 2024**
+**09:00 - 14:00 hrs**
 
-**Instructores:** Christopher Wood, Haydee Hernández, Jair Sánchez (LNMA-UNAM), Paul Hernández (UASLP), Saraí de León Rodríguez (IMSS-CMN Siglo XXI), Andrea Lara (IIB-Universidad Galileo), Ana Valle (FABIQ-Universidad Galileo), Rodrigo Vargas (FABIQ-Universidad Galileo)
+**Instructores:**
+<ul>
+    <li>Christopher Wood</li>
+    <li>Haydee Hernández</li>
+    <li>Jair Sánchez (LNMA-UNAM)</li>
+    <li>Paul Hernández (UASLP)</li>
+    <li>Sarái de León Rodríguez (IMSS-CMN Siglo XXI)</li>
+    <li>Andrea Lara (IIB-Universidad Galileo)</li>
+    <li>Ana Valle (FABIQ-Universidad Galileo)</li>
+    <li>Rodrigo Vargas (FABIQ-Universidad Galileo)</li>
+</ul>
 
 **Patrocinio:** Chan Zuckerberg Initiative
 
@@ -28,4 +38,4 @@ Estamos comprometidos a hacer que este taller sea accesible para todos. Si neces
 ### Contacto
 Para más información, por favor envíe un correo electrónico a: [andrealh@galileo.edu](mailto:andrealh@galileo.edu)
 
-{% include button.html text="Carpeta" icon="drive" link="https://github.com/daviddarnes/alembic](https://drive.google.com/drive/folders/1Jm9_aIGEk2-T0geeBIz_YFTtBhsBejt6?usp=sharing" color="#0366d6" %}
+{% include button.html text="Material del curso" icon="drive" link="https://drive.google.com/drive/folders/1Jm9_aIGEk2-T0geeBIz_YFTtBhsBejt6?usp=sharing" color="#0366d6" %}
