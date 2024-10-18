@@ -119,7 +119,7 @@ navigation_header:
 #- title: Blog
 #  url: /blog/
 - title: Programa
-  url: /categories/
+  url: {{ site.url }}{{ site.baseurl }}/categories/
 - title: Material del curso
   url: https://drive.google.com/drive/folders/1Jm9_aIGEk2-T0geeBIz_YFTtBhsBejt6?usp=sharing
 
