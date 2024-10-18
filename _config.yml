@@ -111,14 +111,14 @@ css_inline: true # Will insert all styles into a single <style> block in the <he
 
 # 8. Site favicons & manifest icons
 favicons: # Favicons are also used in the manifest file. Syntax is 'size: path'
-  16: '/assets/logos/logo@16px.png'
-  32: '/assets/logos/logo@32px.png'
-  96: '/assets/logos/logo@96px.png'
-  120: '/assets/logos/logo@120px.png'
-  144: '/assets/logos/logo@144px.png'
-  180: '/assets/logos/logo@180px.png'
-  512: '/assets/logos/logo@512px.png'
-  1024: '/assets/logos/logo@1024px.png'
+  16: '/assets/logos/LNMA Logo 2023.png'
+  32: '/assets/logos/LNMA Logo 2023.png'
+  96: '/assets/logos/LNMA Logo 2023.png'
+  120: '/assets/logos/LNMA Logo 2023.png'
+  144: '/assets/logos/LNMA Logo 2023.png'
+  180: '/assets/logos/LNMA Logo 2023.png'
+  512: '/assets/logos/LNMA Logo 2023.png'
+  1024: '/assets/logos/LNMA Logo 2023.png'
 
 # 9. Site navigation
 navigation_header:
@@ -138,11 +138,10 @@ navigation_footer:
   url: https://darn.es
 
 social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
-  Twitter: https://twitter.com/DavidDarnes
-  LinkedIn: https://www.linkedin.com/in/daviddarnes
-  GitHub: https://github.com/daviddarnes
-  link: https://darn.es
-  RSS: /feed.xml
+  X: https://twitter.com/lnma_mx
+  LinkedIn: https://mx.linkedin.com/company/laboratorio-nacional-de-microscop%C3%ADa-avanzada-unam
+  link: https://lnma.unam.mx/wp/
+  link: https://www.galileo.edu/
 
 sharing_links: # Appear at the bottom of single blog posts, add as desired. The value can be 'true' or the desired button colour
   Twitter: "#0d94e7"
