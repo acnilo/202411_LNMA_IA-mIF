@@ -2,7 +2,7 @@
 title: Sobre el taller
 feature_text: |
   ### Taller sobre inmunofluorescencia multiplex (mIF) y aplicación de Inteligencia Artificial para el inmuno-perfilado en tejidos y biopsias
-feature_image: "{{ site.url }}{{ site.baseurl }}/assets/Imagenes/FotoIlustrativaHorizontal.png"
+feature_image: "https://acnilo.github.io/202411_LNMA_IA-mIF/assets/Imagenes/FotoIlustrativaHorizontal.png"
 excerpt: "Taller de mIF e inteligencia artificial-aprendizaje profundo (AI-DL)"
 ---
 
