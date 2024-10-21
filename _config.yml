@@ -87,7 +87,7 @@ lang: es # Set the site language
 title: "Taller mIF e IA" # Site name or title, also used in jekyll-seo-tag
 logo: {{ site.url }}{{ site.baseurl }}/assets/Imagenes/logoPagTallermIF_IA.png # Site logo, also used in jekyll-seo-tag
 description: "Los asistentes se familiarizarán con los conceptos básicos de mIF y AI-DL, y cómo se diferencian de los métodos tradicionales. Conocerán las ventajas y desventajas de cada método, y aprenderán, de forma básica, a usar algunas herramientas disponibles para este análisis. Al finalizar, podrán decidir si las técnicas de mIF y AI-DL son apropiadas para sus investigaciones. El taller brinda los conocimientos necesarios para que exploren e incorporen estas técnicas en sus proyectos" # Site description and default description, also used in jekyll-seo-tag
-url: "https://acnilo.github.io" # Site url, also used in jekyll-seo-tag
+url: "https://github.com/acnilo/" # Site url, also used in jekyll-seo-tag
 baseurl: "/202411_LNMA_IA-mIF/"
 repo: "https://github.com/acnilo/202411_LNMA_IA-mIF"
 email: "chistopher.wood@ibt.unam.mx"
