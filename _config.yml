@@ -99,6 +99,9 @@ favicons:  # Favicons are also used in the manifest file
 navigation_header:
   - title: Inicio
     url: /
+  - title: Material del curso
+    url: https://drive.google.com/drive/folders/1Jm9_aIGEk2-T0geeBIz_YFTtBhsBejt6?usp=sharing
+    
 
 navigation_footer:
   - title: Created by David Darnes
