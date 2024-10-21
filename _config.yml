@@ -87,13 +87,13 @@ email: "chistopher.wood@ibt.unam.mx"
 # 8. Site favicons & manifest icons
 favicons:  # Favicons are also used in the manifest file
   16: '/assets/Imagenes/logoPagTallermIF_IA.png'
-  32: '/assets/logos/LNMALogo_16pxs.png'
-  96: '/assets/logos/LNMA%20Logo%202023.png'
-  120: '/assets/logos/LNMALogo_16pxs.png'
-  144: '/assets/logos/LNMALogo_16pxs.png'
-  180: '/assets/logos/LNMALogo_16pxs.png'
-  512: '/assets/logos/LNMALogo_16pxs.png'
-  1024: '/assets/logos/LNMA%20Logo%202023.png'
+  32: '/assets/Imagenes/logoPagTallermIF_IA.png'
+  96: '/assets/Imagenes/logoPagTallermIF_IA.png''
+  120: '/assets/Imagenes/logoPagTallermIF_IA.png'
+  144: '/assets/Imagenes/logoPagTallermIF_IA.png'
+  180: '/assets/Imagenes/logoPagTallermIF_IA.png'
+  512: '/assets/Imagenes/logoPagTallermIF_IA.png'
+  1024: '/assets/Imagenes/logoPagTallermIF_IA.png'
 
 # 9. Site navigation
 navigation_header:
