@@ -88,7 +88,7 @@ email: "chistopher.wood@ibt.unam.mx"
 favicons:  # Favicons are also used in the manifest file
   16: '/assets/Imagenes/logoPagTallermIF_IA.png'
   32: '/assets/Imagenes/logoPagTallermIF_IA.png'
-  96: '/assets/Imagenes/logoPagTallermIF_IA.png''
+  96: '/assets/Imagenes/logoPagTallermIF_IA.png'
   120: '/assets/Imagenes/logoPagTallermIF_IA.png'
   144: '/assets/Imagenes/logoPagTallermIF_IA.png'
   180: '/assets/Imagenes/logoPagTallermIF_IA.png'
