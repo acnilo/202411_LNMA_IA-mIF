@@ -57,8 +57,9 @@ collections:
     title: Posts # Needed for Siteleaf
     output: true
     description: "My thoughts and ideas" # The post list page content
-    feature_text: "Welcome to the blog"
-    feature_image: {{ site.url }}{{ site.baseurl }}/assets/Imagenes/logoPagTallermIF_IA.png
+    feature_text: |
+      Welcome to the blog
+    feature_image: "{{ site.url }}{{ site.baseurl }}/assets/Imagenes/logoPagTallermIF_IA.png"
 
 # 6. Jekyll collections settings
 defaults:
@@ -66,7 +67,7 @@ defaults:
     scope:
       path: ""
     values:
-      image: {{ site.url }}{{ site.baseurl }}/assets/default-social-image.png # Default image for sharing
+      image: "{{ site.url }}{{ site.baseurl }}/assets/default-social-image.png" # Default image for sharing
   -
     scope:
       path: ""
