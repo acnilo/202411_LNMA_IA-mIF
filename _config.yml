@@ -77,7 +77,7 @@ defaults:
 encoding: utf-8  # Make sure the encoding is right
 lang: es  # Set the site language
 title: "Taller mIF e IA"  # Site name or title
-logo: "https://acnilo.github.io/202411_LNMA_IA-mIF/assets/Imagenes/logoPagTallermIF_IA.png"  # Site logo
+logo: "/assets/Imagenes/logoPagTallermIF_IA.png"  # Site logo
 description: "Los asistentes se familiarizarán con los conceptos básicos de mIF y AI-DL..."  # Site description
 url: "https://acnilo.github.io"  # Site url
 baseurl: "/202411_LNMA_IA-mIF/"
