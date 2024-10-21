@@ -109,10 +109,10 @@ navigation_footer:
     url: https://darn.es
 
 social_links:  # Appears in sidebar
-  X: https://twitter.com/lnma_mx
+  Twitter: https://twitter.com/lnma_mx
   LinkedIn: https://mx.linkedin.com/company/laboratorio-nacional-de-microscopía-avanzada-unam
-  link: https://lnma.unam.mx/wp/
-  link: https://www.galileo.edu/
+  website: https://lnma.unam.mx/wp/
+  galileo: https://www.galileo.edu/
 
 sharing_links:  # Appear at the bottom of single blog posts
   Twitter: "#0d94e7"
