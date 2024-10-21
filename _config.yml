@@ -57,8 +57,7 @@ collections:
     title: Posts # Needed for Siteleaf
     output: true
     description: "My thoughts and ideas" # The post list page content
-    feature_text: |
-      Welcome to the blog
+    feature_text: Welcome to the blog
     feature_image: {{ site.url }}{{ site.baseurl }}/assets/Imagenes/logoPagTallermIF_IA.png
 
 # 6. Jekyll collections settings
@@ -87,7 +86,7 @@ lang: es # Set the site language
 title: "Taller mIF e IA" # Site name or title, also used in jekyll-seo-tag
 logo: {{ site.url }}{{ site.baseurl }}/assets/Imagenes/logoPagTallermIF_IA.png # Site logo, also used in jekyll-seo-tag
 description: "Los asistentes se familiarizarán con los conceptos básicos de mIF y AI-DL, y cómo se diferencian de los métodos tradicionales. Conocerán las ventajas y desventajas de cada método, y aprenderán, de forma básica, a usar algunas herramientas disponibles para este análisis. Al finalizar, podrán decidir si las técnicas de mIF y AI-DL son apropiadas para sus investigaciones. El taller brinda los conocimientos necesarios para que exploren e incorporen estas técnicas en sus proyectos" # Site description and default description, also used in jekyll-seo-tag
-url: "https://github.com/acnilo/" # Site url, also used in jekyll-seo-tag
+url: "https://acnilo.github.io/" # Site url, also used in jekyll-seo-tag
 baseurl: "/202411_LNMA_IA-mIF/"
 repo: "https://github.com/acnilo/202411_LNMA_IA-mIF"
 email: "chistopher.wood@ibt.unam.mx"
@@ -103,12 +102,12 @@ css_inline: true # Will insert all styles into a single <style> block in the <he
 favicons: # Favicons are also used in the manifest file. Syntax is 'size: path'
   16: {{ site.url }}{{ site.baseurl }}/assets/Imagenes/logoPagTallermIF_IA.png
   32: {{ site.url }}{{ site.baseurl }}/assets/logos/LNMALogo_16pxs.png
-  96: {{ site.url }}{{ site.baseurl }}/assets/logos/LNMA Logo 2023.png
+  96: {{ site.url }}{{ site.baseurl }}/assets/logos/LNMA%20Logo%202023.png
   120: {{ site.url }}{{ site.baseurl }}/assets/logos/LNMALogo_16pxs.png
   144: {{ site.url }}{{ site.baseurl }}/assets/logos/LNMALogo_16pxs.png
   180: {{ site.url }}{{ site.baseurl }}/assets/logos/LNMALogo_16pxs.png
   512: {{ site.url }}{{ site.baseurl }}/assets/logos/LNMALogo_16pxs.png
-  1024: {{ site.url }}{{ site.baseurl }}/assets/logos/LNMA Logo 2023.png
+  1024: {{ site.url }}{{ site.baseurl }}/assets/logos/LNMA%20Logo%202023.png
 
 # 9. Site navigation
 navigation_header:
