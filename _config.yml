@@ -101,7 +101,7 @@ css_inline: true # Will insert all styles into a single <style> block in the <he
 
 # 8. Site favicons & manifest icons
 favicons: # Favicons are also used in the manifest file. Syntax is 'size: path'
-  16: {{ site.url }}{{ site.baseurl }}/assets/logos/LNMALogo_16pxs.png
+  16: {{ site.url }}{{ site.baseurl }}/assets/Imagenes/logoPagTallermIF_IA.png
   32: {{ site.url }}{{ site.baseurl }}/assets/logos/LNMALogo_16pxs.png
   96: {{ site.url }}{{ site.baseurl }}/assets/logos/LNMA Logo 2023.png
   120: {{ site.url }}{{ site.baseurl }}/assets/logos/LNMALogo_16pxs.png
