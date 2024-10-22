@@ -1,0 +1,9 @@
+- name: "Jane Doe"
+  role: "Research Scientist"
+  bio: "Jane specializes in immunology and has over 10 years of experience in the field."
+  image: "https://acnilo.github.io/202411_LNMA_IA-mIF/assets/default-social-image.png"
+
+- name: "John Smith"
+  role: "Data Scientist"
+  bio: "John focuses on AI applications in healthcare."
+  image: "https://acnilo.github.io/202411_LNMA_IA-mIF/assets/default-social-image.png"
