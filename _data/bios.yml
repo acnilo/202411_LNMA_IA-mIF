@@ -1,7 +1,7 @@
 - name: "Jane Doe"
   role: "Research Scientist"
   bio: "Jane specializes in immunology and has over 10 years of experience in the field."
-  image: "/assets/Imagenes/FotoIlustrativaHorizontal.png"
+  image: "{{ site.url }}{{ site.baseurl }}/assets/default-social-image.png"
 
 - name: "John Smith"
   role: "Data Analyst"
