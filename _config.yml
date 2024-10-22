@@ -54,7 +54,7 @@ collections:
     description: "Biografias cortas de los instructores"  # The post list page content
     feature_text: |
       Instructores
-    feature_image: "/assets/Imagenes/FotoIlustrativaHorizontal.png"
+    feature_image: "https://acnilo.github.io/202411_LNMA_IA-mIF/assets/Imagenes/FotoIlustrativaHorizontal.png"
 
 # 6. Jekyll collections settings
 defaults:
