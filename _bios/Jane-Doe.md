@@ -1,5 +1,5 @@
 ---
-layout: bios  # Or your specific layout
+layout: bio  # Or your specific layout
 title: "Jane Doe"
 role: "Research Scientist"
 bio: "Jane specializes in immunology and has over 10 years of experience in the field."
