@@ -49,9 +49,9 @@ timezone: Europe/London  # Timezone for blog posts and alike
 # 5. Collections
 collections:
   posts:
-    title: BIOS  # Needed for Siteleaf
+    title: "BIOS"  # Needed for Siteleaf
     output: true
-    description: "Biografias cortas de los instructores"  # The post list page content
+    description: "Biografías cortas de los instructores"  # Description for the collection page
     feature_text: |
       Instructores
     feature_image: "https://acnilo.github.io/202411_LNMA_IA-mIF/assets/Imagenes/FotoIlustrativaHorizontal.png"
