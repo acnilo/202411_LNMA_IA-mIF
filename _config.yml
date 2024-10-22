@@ -49,12 +49,12 @@ timezone: Europe/London  # Timezone for blog posts and alike
 # 5. Collections
 collections:
   posts:
-    title: Posts  # Needed for Siteleaf
+    title: BIOS  # Needed for Siteleaf
     output: true
-    description: "My thoughts and ideas"  # The post list page content
+    description: "Biografias cortas de los instructores"  # The post list page content
     feature_text: |
-      Welcome to the blog
-    feature_image: "/assets/Imagenes/logoPagTallermIF_IA.png"
+      Instructores
+    feature_image: "/assets/Imagenes/FotoIlustrativaHorizontal.png"
 
 # 6. Jekyll collections settings
 defaults:
