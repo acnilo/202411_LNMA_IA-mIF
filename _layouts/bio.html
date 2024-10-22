@@ -11,7 +11,7 @@ layout: default
     <article class="article article--page typeset">
 
       {% if site.bios %}
-        <h1>Bios</h1>  <!-- You can customize this title -->
+        <h1>{{ bio.name }}</h1>  <!-- You can customize this title -->
         <div class="bio-list">
           {% for bio in site.bios %}
             <div class="bio">
