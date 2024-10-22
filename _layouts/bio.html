@@ -1,0 +1,11 @@
+<div class="bio-list">
+  {% for bio in site.bios %}
+    <div class="bio">
+      <img src="{{ bio.image }}" alt="{{ bio.title }}" class="bio-image">
+      <div class="bio-info">
+        <strong>{{ bio.title }}</strong> - {{ bio.role }}<br>
+        {{ bio.bio }}
+      </div>
+    </div>
+  {% endfor %}
+</div>
