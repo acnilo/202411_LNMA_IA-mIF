@@ -1,34 +1,17 @@
 ---
 layout: default
+paginate: true
 ---
 
-{% include site-header.html %}
+<h1>Bios</h1>
 
-<main class="main container">
-
-  <div class="content">
-
-    <article class="article article--page typeset">
-
-      {% if paginator.posts %}
-        {% assign collectiondata = site.collections | where: "label", page.collectionpage | first %}
-        <h1>{{ collectiondata.title }}</h1>
-        {{ collectiondata.description | markdownify }}
-
-      {% else %}
-        <h1>{{ page.title }}</h1>
-        {{ content }}
-
-      {% endif %}
-
-    </article>   
-
-    {% include bio-list.html %}  <!-- This will include the post list, if you want to keep it -->
-
-  </div>
-
-  {% if page.aside == true %}{% include site-aside.html %}{% endif %}
-
-</main>
-
-{% include site-footer.html %}
+{% if paginator.bios %}
+  <ul>
+    {% for bio in paginator.bios %}
+      <li>{{ bio.name }}</li>
+    {% endfor %}
+  </ul>
+  {% include bio-pagination.html %}  <!-- Your pagination controls -->
+{% else %}
+  <p>No bios available.</p>
+{% endif %}
