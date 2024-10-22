@@ -2,7 +2,6 @@
 title: Diseño Experimental de Estudios de Inmunofluorescencia multiplex 
 categories:
 - Day1
-- General
 feature_text: |
   The History of the Alembic tool
 ---
