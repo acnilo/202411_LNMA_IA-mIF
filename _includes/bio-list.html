@@ -1,9 +1,9 @@
 <pre>{{ site.bios | inspect }}</pre>
 <pre>{{ paginator.bios | inspect }}</pre>
-{% if paginator.bios %}
+{% if site.bios %}
   <section class="section typeset">
     <ul class="list list--bios">
-      {% for bio in paginator.bios %}
+      {% for bio in site.bios %}
         <li class="item item--bio">
           <article class="article article--bio">
             <h2>{{ bio.name }}</h2>
