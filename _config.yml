@@ -53,7 +53,7 @@ collections:
     output: true
     description: "Biografías cortas de los instructores"  # Description for the collection page
     feature_text: |
-      Instructores
+      ## Instructores  
     feature_image: "https://picsum.photos/2560/600?image=733"
 
 # 6. Jekyll collections settings
