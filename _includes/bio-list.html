@@ -1,0 +1,14 @@
+<div class="bio-list">
+  {% for bio in site.data.bios %}
+    <div class="bio">
+      <img src="{{ bio.image }}" class="bio-image" alt="{{ bio.name }}">
+      <h3>{{ bio.name }}</h3>
+      <div class="bio-info">
+        {{ bio.role }}<br>
+        {{ bio.bio }}
+      </div>
+    </div>
+  {% else %}
+    <p>No bios available.</p>  <!-- Fallback message -->
+  {% endfor %}
+</div>
