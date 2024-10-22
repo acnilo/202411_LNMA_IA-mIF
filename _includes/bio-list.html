@@ -1,20 +1,20 @@
-{% if site.bios %}
+{% if paginator.bios %}
   <section class="section typeset">
     <ul class="list list--bios">
-      {% for bio in site.bios %}
+      {% for bio in paginator.bios %}
         <li class="item item--bio">
           <article class="article article--bio">
-            <img src="{{ bio.image }}" class="bio-image" alt="{{ bio.name }}">
             <h2>{{ bio.name }}</h2>
-            {% include bio-meta.html %}  <!-- Include bio meta info -->
+            <img src="{{ bio.image }}" alt="{{ bio.name }}" class="bio-image">
             <div class="bio-info">
-              {{ bio.bio }}
+              <strong>{{ bio.role }}</strong><br>
+              {{ bio.bio | markdownify | truncatewords: 60 }}
             </div>
           </article>
         </li>
       {% endfor %}
     </ul>
-    {% include bio-pagination.html %}  <!-- Include pagination if you created it -->
+    {% include bio-pagination.html %}  <!-- If you have pagination for bios -->
   </section>
 {% else %}
   <section class="section typeset">
