@@ -47,7 +47,12 @@
 
   <body class="layout-{{ page.layout }}{% if page.title %}  {{ page.title | slugify }}{% endif %}">
     {% include site-icons.svg %}
-
+    
+    <!-- Debug Output for Categories -->
+    <div style="display:none;">
+      <pre>{{ site.categories | inspect }}</pre>
+    </div>
+    
     {{ content }}
 
     {% if site.service_worker != false %}{% include site-sw.html %}{% endif %}
