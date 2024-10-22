@@ -10,9 +10,9 @@ layout: default
 
     <article class="article article--page typeset">
 
+      <h1>{{ page.title }}</h1>
+
       {% if paginator.bios %}
-        <h1>{{ page.title }}</h1>  <!-- Use a title for the page -->
-        
         <section class="section typeset">
           <ul class="list list--bios">
             {% for bio in paginator.bios %}
