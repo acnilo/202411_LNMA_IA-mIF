@@ -10,25 +10,18 @@ layout: default
 
     <article class="article article--page typeset">
 
-      {% if site.bios %}
-        <h1>Bios</h1>
-        <div class="bio-list">
-          {% for bio in site.bios %}
-            <div class="bio">
-              <img src="{{ bio.image }}" class="bio-image" alt="{{ bio.name }}">
-              <h2>{{ bio.name }}</h2>
-              <div class="bio-info">
-                <strong>{{ bio.role }}</strong><br>
-                {{ bio.bio }}
-              </div>
-            </div>
-          {% endfor %}
-        </div>
+      {% if paginator.posts %}
+        {% assign collectiondata = site.collections | where: "label", page.collectionpage | first %}
+        <h1>{{ collectiondata.title }}</h1>
+        {{ collectiondata.description | markdownify }}
+
       {% else %}
-        <h1>No Bios Available</h1>
+        <h1>{{ page.title }}</h1>
+        {{ content }}
+
       {% endif %}
 
-    </article>
+    </article>   
 
     {% include bios-list.html %}  <!-- This will include the post list, if you want to keep it -->
 
