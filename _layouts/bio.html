@@ -4,28 +4,27 @@ layout: default
 
 {% include site-header.html %}
 
-<main class="main  container">
-  
+<main class="main container">
+
   <div class="content">
 
-    <article class="article  article--page  typeset">
+    <article class="article article--page typeset">
 
       {% if paginator.bios %}
-        <pre>{{ paginator.bios | inspect }}</pre>
         {% assign collectiondata = site.collections | where: "label", page.collectionpage | first %}
         <h1>{{ collectiondata.title }}</h1>
+        <h2>Just to show u</h2>h2>
         {{ collectiondata.description | markdownify }}
 
       {% else %}
         <h1>{{ page.title }}</h1>
-        <pre>{{ paginator.bios | inspect }}</pre>
         {{ content }}
         
       {% endif %}
 
     </article>
 
-    {% include bio-list.html %}
+    {% include bio-list.html %}  <!-- This will include the list of bios -->
 
   </div>
 
