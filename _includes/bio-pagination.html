@@ -1,0 +1,15 @@
+<nav class="nav nav--bio-paginator">
+  {% if paginator.previous_page %}
+    <a href="{{ site.baseurl }}{{ paginator.previous_page_path }}" class="pagination pagination--previous">&larr; Newer Bios</a>
+  {% else %}
+    <span class="pagination pagination--previous">&larr; Newer Bios</span>
+  {% endif %}
+
+  <span class="pagination pagination--counter">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+
+  {% if paginator.next_page %}
+    <a href="{{ site.baseurl }}{{ paginator.next_page_path }}" class="pagination pagination--next">Older Bios &rarr;</a>
+  {% else %}
+    <span class="pagination pagination--next">Older Bios &rarr;</span>
+  {% endif %}
+</nav>
