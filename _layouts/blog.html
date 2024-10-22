@@ -10,20 +10,23 @@ layout: default
 
     <article class="article article--page typeset">
 
-      <div class="bio-list">
-        {% for bio in site.data.bios %}
-          <div class="bio">
-            <img src="{{ bio.image }}" class="bio-image" alt="{{ bio.name }}">
-            <h2>{{ bio.name }}</h2>
-            <div class="bio-info">
-              {{ bio.role }}<br>
-              {{ bio.bio }}
+      {% if site.bios %}
+        <h1>Bios</h1>  <!-- You can customize this title -->
+        <div class="bio-list">
+          {% for bio in site.bios %}
+            <div class="bio">
+              <img src="{{ bio.image }}" class="bio-image" alt="{{ bio.name }}">
+              <h2>{{ bio.name }}</h2>
+              <div class="bio-info">
+                <strong>{{ bio.role }}</strong><br>
+                {{ bio.bio }}
+              </div>
             </div>
-          </div>
-        {% else %}
-          <p>No bios available.</p>  <!-- Optional: Message if no bios -->
-        {% endfor %}
-      </div>
+          {% endfor %}
+        </div>
+      {% else %}
+        <h1>No Bios Available</h1>
+      {% endif %}
 
     </article>
 
