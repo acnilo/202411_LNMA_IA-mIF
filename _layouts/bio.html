@@ -1,13 +1,39 @@
-<div class="bio-list">
-  {% for bio in site.bios %}
-    <div class="bio">
-      <img src="{{ bio.image }}" alt="{{ bio.title }}" class="bio-image">
-      <div class="bio-info">
-        <strong>{{ bio.title }}</strong> - {{ bio.role }}<br>
-        {{ bio.bio }}
-      </div>
-    </div>
-  {% else %}
-    <p>No bios available.</p>  <!-- Debugging line -->
-  {% endfor %}
-</div>
+---
+layout: default
+---
+
+{% include site-header.html %}
+
+<main class="main container">
+
+  <div class="content">
+
+    <article class="article article--page typeset">
+
+      {% if site.bios %}
+        <h1>Bios</h1>  <!-- You can customize this title -->
+        <div class="bio-list">
+          {% for bio in site.bios %}
+            <div class="bio">
+              <img src="{{ bio.image }}" class="bio-image" alt="{{ bio.name }}">
+              <h2>{{ bio.name }}</h2>
+              <div class="bio-info">
+                <strong>{{ bio.role }}</strong><br>
+                {{ bio.bio }}
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+      {% else %}
+        <h1>No Bios Available</h1>
+      {% endif %}
+
+    </article>
+
+  </div>
+
+  {% if page.aside == true %}{% include site-aside.html %}{% endif %}
+
+</main>
+
+{% include site-footer.html %}
