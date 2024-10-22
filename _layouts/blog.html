@@ -10,14 +10,13 @@ layout: default
 
     <article class="article article--page typeset">
 
-      <h2>{{ bio.name }}</h2>
-
       <div class="bio-list">
-        {% for bio in site.data.bios %}
+        {% for bio in site.data %}
           <div class="bio">
             <img src="{{ bio.image }}" class="bio-image">
+            <h2>{{ bio.name }}</h2>
             <div class="bio-info">
-              <strong>{{ bio.name }}</strong> - {{ bio.role }}<br>
+              {{ bio.role }}<br>
               {{ bio.bio }}
             </div>
           </div>
