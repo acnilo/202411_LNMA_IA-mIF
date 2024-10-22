@@ -10,7 +10,8 @@ layout: default
 
     <article class="article  article--page  typeset">
 
-      <pre>{{ paginator | inspect }}</pre>
+      <pre>{{ paginator.bios | inspect }}</pre>
+      <pre>{{ site.bios | inspect }}</pre>
       {% if paginator.bios %}
         {% assign collectiondata = site.collections | where: "label", page.collectionpage | first %}
         <h1>{{ collectiondata.title }}</h1>
