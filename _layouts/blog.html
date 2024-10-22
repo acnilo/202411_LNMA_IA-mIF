@@ -4,22 +4,25 @@ layout: default
 
 {% include site-header.html %}
 
-<main class="main  container">
+<main class="main container">
 
   <div class="content">
 
-    <article class="article  article--page  typeset">
+    <article class="article article--page typeset">
 
-      {% if paginator.posts %}
-        {% assign collectiondata = site.collections | where: "label", page.collectionpage | first %}
-        <h1>{{ collectiondata.title }}</h1>
-        {{ collectiondata.description | markdownify }}
+      <h1>Bios</h1>
 
-      {% else %}
-        <h1>{{ page.title }}</h1>
-        {{ content }}
-        
-      {% endif %}
+      <div class="bio-list">
+        {% for bio in site.data.bios %}
+          <div class="bio">
+            <img src="{{ bio.image }}" alt="{{ bio.name }}" class="bio-image">
+            <div class="bio-info">
+              <strong>{{ bio.name }}</strong> - {{ bio.role }}<br>
+              {{ bio.bio }}
+            </div>
+          </div>
+        {% endfor %}
+      </div>
 
     </article>
 
