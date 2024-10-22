@@ -54,7 +54,7 @@ collections:
     description: "Biografías cortas de los instructores"  # Description for the collection page
     feature_text: |
       Instructores
-    feature_image: "https://acnilo.github.io/202411_LNMA_IA-mIF/assets/Imagenes/FotoIlustrativaHorizontal.png"
+    feature_image: "https://picsum.photos/2560/600?image=733"
 
 # 6. Jekyll collections settings
 defaults:
