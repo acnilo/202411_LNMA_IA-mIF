@@ -60,7 +60,7 @@ collections:
     title: "Bios"
     description: "Biografías cortas de los instructores"
     feature_text: |
-      Instructores
+      ## Instructores
     feature_image: "https://picsum.photos/2560/600?image=733"
 
 # 6. Jekyll collections settings
