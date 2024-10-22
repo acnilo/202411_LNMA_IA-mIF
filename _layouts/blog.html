@@ -11,15 +11,17 @@ layout: default
     <article class="article article--page typeset">
 
       <div class="bio-list">
-        {% for bio in site.data %}
+        {% for bio in site.data.bios %}
           <div class="bio">
-            <img src="{{ bio.image }}" class="bio-image">
+            <img src="{{ bio.image }}" class="bio-image" alt="{{ bio.name }}">
             <h2>{{ bio.name }}</h2>
             <div class="bio-info">
               {{ bio.role }}<br>
               {{ bio.bio }}
             </div>
           </div>
+        {% else %}
+          <p>No bios available.</p>  <!-- Optional: Message if no bios -->
         {% endfor %}
       </div>
 
