@@ -1,17 +1,49 @@
 ---
 layout: default
-paginate: true
 ---
 
-<h1>Bios</h1>
+{% include site-header.html %}
 
-{% if paginator.bios %}
-  <ul>
-    {% for bio in paginator.bios %}
-      <li>{{ bio.name }}</li>
-    {% endfor %}
-  </ul>
-  {% include bio-pagination.html %}  <!-- Your pagination controls -->
-{% else %}
-  <p>No bios available.</p>
-{% endif %}
+<main class="main container">
+
+  <div class="content">
+
+    <article class="article article--page typeset">
+
+      {% if paginator.bios %}
+        <h1>{{ page.title }}</h1>  <!-- Use a title for the page -->
+        
+        <section class="section typeset">
+          <ul class="list list--bios">
+            {% for bio in paginator.bios %}
+              <li class="item item--bio">
+                <article class="article article--bio">
+                  <h2>{{ bio.name }}</h2>
+                  <img src="{{ bio.image }}" alt="{{ bio.name }}" class="bio-image">
+                  <div class="bio-info">
+                    <strong>{{ bio.role }}</strong><br>
+                    {{ bio.bio | markdownify | truncatewords: 60 }}
+                  </div>
+                </article>
+              </li>
+            {% endfor %}
+          </ul>
+          {% include bio-pagination.html %}  <!-- Include pagination for bios -->
+        </section>
+
+      {% else %}
+        <h1>{{ page.title }}</h1>
+        <p>No bios available.</p>
+      {% endif %}
+
+    </article>   
+
+    {% include bio-list.html %}  <!-- Keep this if you want a separate listing -->
+
+  </div>
+
+  {% if page.aside == true %}{% include site-aside.html %}{% endif %}
+
+</main>
+
+{% include site-footer.html %}
