@@ -1,5 +1,5 @@
 ---
-title: ¿Gracias!
+title: ¡Gracias!
 indexing: false
 sitemap: false
 ---
