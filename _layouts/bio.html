@@ -11,7 +11,7 @@ layout: default
     <article class="article article--page typeset">
 
       {% if site.bios %}
-        <h1>{{ bio.name }}</h1>  <!-- You can customize this title -->
+        <h1>Bios</h1>
         <div class="bio-list">
           {% for bio in site.bios %}
             <div class="bio">
@@ -29,6 +29,8 @@ layout: default
       {% endif %}
 
     </article>
+
+    {% include bios-list.html %}  <!-- This will include the post list, if you want to keep it -->
 
   </div>
 
