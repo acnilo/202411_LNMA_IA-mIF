@@ -13,15 +13,16 @@ layout: default
           <div class="carousel-inner">
             {% for bio in site.bios %}
               <div class="carousel-item {% if forloop.first %}active{% endif %}">
-                <div class="row align-items-center" style="min-height: 70vh;"> <!-- Set min-height for flexibility -->
+                <div class="row align-items-center" style="min-height: 70vh;"> <!-- Set a minimum height for the row -->
+                  <div class="col-md-6 d-flex justify-content-center align-items-center">
+                    <img src="{{ bio.image | relative_url }}" alt="{{ bio.name }}" class="bio-image" style="max-width: 100%; height: auto;">
+                  </div>
                   <div class="col-md-6">
-                    <img src="{{ bio.image | relative_url }}" alt="{{ bio.name }}" class="bio-image img-fluid" style="max-height: 8%; object-fit: cover;">
-                  </div>                      
-                  <div class="col-md-6">
-                    <div class="carousel-caption d-none d-md-block" style="background: rgba(0, 0, 0, 0.7); border-radius: 5px; text-align: left;">
-                      <h3>{{ bio.name }}</h3>
-                      <p>{{ bio.bio }}</p>
-                      <p>{{ bio.email }}</p>
+                    <div class="carousel-caption d-none d-md-block" style="background: rgba(0, 0, 0, 0.7); padding: 20px; border-radius: 5px; text-align: left;">
+                      <h3 style="margin-bottom: 10px;">{{ bio.name }}</h3>
+                      <p>{{ bio.role }}</p>
+                      <p style="margin-bottom: 5px;">{{ bio.bio }}</p>
+                      <p style="margin-bottom: 5px; font-weight: bold;">{{ bio.email }}</p>
                     </div>
                   </div>
                 </div>
