@@ -1,33 +1,60 @@
-{% if site.bios %}
-  <section class="carousel slide" id="bioCarousel" data-ride="carousel">
-    <div class="carousel-inner">
-      {% for bio in site.bios %}
-        <div class="carousel-item {% if forloop.first %}active{% endif %}">
-          <div class="row">
-            <div class="col-md-6">
-              <div class="carousel-caption d-none d-md-block">
-                <h1>{{ bio.name }}</h1>
-                <p>{{ bio.role }}</p>
-                <h3>{{ bio.bio }}</h3>
+---
+layout: default
+---
+
+{% include site-header.html %}
+
+<main class="main container">
+  <div class="content">
+    <article class="article article--page typeset">
+
+      {% if site.bios %}
+        <section class="carousel slide" id="bioCarousel" data-ride="carousel">
+          <div class="carousel-inner">
+            {% for bio in site.bios %}
+              <div class="carousel-item {% if forloop.first %}active{% endif %}">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h1>{{ bio.name }}</h1>
+                      <p>{{ bio.role }}</p>
+                      <h3>{{ bio.bio }}</h3>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <img src="{{ bio.image | relative_url }}" alt="{{ bio.name }}" class="d-block w-100">
+                  </div>
+                </div>
               </div>
-            </div>
-            <div class="col-md-6">
-              <img src="{{ bio.image | relative_url }}" alt="{{ bio.name }}" class="d-block w-100">
-            </div>
+            {% endfor %}
           </div>
-        </div>
-      {% endfor %}
-    </div>
-    <a class="carousel-control-prev" href="#bioCarousel" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#bioCarousel" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
-  </section>
-{% else %}
-  <h1>{{ page.title }}</h1>
-  <p>No bios available.</p>
-{% endif %}
+          <a class="carousel-control-prev" href="#bioCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#bioCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </section>
+
+      {% else %}
+        <h1>{{ page.title }}</h1>
+        <p>No bios available.</p>
+      {% endif %}
+
+    </article>
+  </div>
+
+  {% if page.aside == true %}{% include site-aside.html %}{% endif %}
+</main>
+
+{% include site-footer.html %}
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<!-- jQuery and Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
