@@ -4,10 +4,6 @@ layout: default
 
 {% include site-header.html %}
 
-<main class="main container">
-  <div class="content">
-    <article class="article article--page typeset">
-
       {% if site.bios %}
         <section class="carousel slide" id="bioCarousel" data-ride="carousel">
           <div class="carousel-inner">
@@ -39,8 +35,6 @@ layout: default
         <h1>{{ page.title }}</h1>
         <p>No bios available.</p>
       {% endif %}
-    </article>
-  </div>
 
   {% if page.aside == true %}{% include site-aside.html %}{% endif %}
 </main>
