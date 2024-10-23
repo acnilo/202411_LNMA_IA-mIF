@@ -13,16 +13,16 @@ layout: default
           <div class="carousel-inner">
             {% for bio in site.bios %}
               <div class="carousel-item {% if forloop.first %}active{% endif %}">
-                <div class="row align-items-center" style="min-height: 70vh;"> <!-- Set min-height for flexibility -->
+                <div class="row">
                   <div class="col-md-6">
-                    <img src="{{ bio.image | relative_url }}" alt="{{ bio.name }}" class="bio-image img-fluid" style="max-height: 100%; object-fit: cover;">
-                  </div>                      
-                  <div class="col-md-6">
-                    <div class="carousel-caption d-none d-md-block" style="background: rgba(0, 0, 0, 0.7); padding: 20px; border-radius: 5px; text-align: left;">
-                      <h3 style="margin-bottom: 10px;">{{ bio.name }}</h3>
-                      <p style="margin-bottom: 5px; font-weight: bold;">{{ bio.role }}</p>
-                      <p>{{ bio.bio }}</p>
+                    <div class="carousel-caption d-none d-md-block">
+                      <h1>{{ bio.name }}</h1>
+                      <p>{{ bio.role }}</p>
+                      <h3>{{ bio.bio }}</h3>
                     </div>
+                  </div>
+                  <div class="col-md-6">
+                    <img src="{{ bio.image | relative_url }}" alt="{{ bio.name }}" class="d-block w-100">
                   </div>
                 </div>
               </div>
@@ -37,10 +37,12 @@ layout: default
             <span class="sr-only">Next</span>
           </a>
         </section>
+
       {% else %}
         <h1>{{ page.title }}</h1>
         <p>No bios available.</p>
       {% endif %}
+
     </article>
   </div>
 
