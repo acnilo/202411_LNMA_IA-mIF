@@ -60,4 +60,31 @@
     {% include site-before-end.html %}
   </body>
 
+  <style>
+  .carousel-item {
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Center items vertically */
+    text-align: center; /* Align text to the left */
+  }
+
+  .carousel-caption {
+    position: relative; /* Ensure it stays in the correct position */
+    z-index: 10; /* Make sure it's above the image */
+  }
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    border-radius: 50%; /* Optional: rounded shape */
+  }
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    filter: invert(1); /* Invert colors if the background is dark */
+  }
+
+</style>
+
+
+
 </html>
