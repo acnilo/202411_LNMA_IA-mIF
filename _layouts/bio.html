@@ -15,15 +15,15 @@ layout: default
               <div class="carousel-item {% if forloop.first %}active{% endif %}">
                 <div class="row">
                   <div class="col-md-6">
+                    <img src="{{ bio.image | relative_url }}" alt="{{ bio.name }}" class="bio-image d-block w-100">
+                  </div>
+                  <div class="col-md-6">
                     <div class="carousel-caption d-none d-md-block">
                       <h1>{{ bio.name }}</h1>
                       <p>{{ bio.role }}</p>
-                      <h3>{{ bio.bio }}</h3>
+                      <p>{{ bio.bio }}</p>
                     </div>
-                  </div>
-                  <div class="col-md-6">
-                    <img src="{{ bio.image | relative_url }}" alt="{{ bio.name }}" class="d-block w-100">
-                  </div>
+                  </div>                  
                 </div>
               </div>
             {% endfor %}
