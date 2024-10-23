@@ -60,27 +60,42 @@
     {% include site-before-end.html %}
   </body>
 
-  <style>
-    .carousel-inner {
-      height: 60vh; /* Use a viewport height percentage for responsiveness */
-    }
+<style>
+  .carousel-inner {
+    height: 60vh; /* Adjust height as needed */
+  }
 
-    .carousel-caption h1,
-    .carousel-caption p,
-    .carousel-caption h3 {
-      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7); /* Optional: shadow for better readability */
-    }
+  .carousel-item {
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Center items vertically */
+  }
 
-    .carousel-control-prev-icon,
-    .carousel-control-next-icon {
-      background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
-      border-radius: 50%; /* Optional: rounded shape */
-    }
+  .carousel-caption {
+    position: relative; /* Ensure it stays in the correct position */
+  }
 
-    .carousel-control-prev,
-    .carousel-control-next {
-      filter: invert(1); /* Invert colors if the background is dark */
-    }
-  </style>
+  .carousel-caption h1,
+  .carousel-caption p,
+  .carousel-caption h3 {
+    color: #000000; /* Ensure text is visible */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7); /* Optional: shadow for better readability */
+  }
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    border-radius: 50%; /* Optional: rounded shape */
+  }
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    filter: invert(1); /* Invert colors if the background is dark */
+  }
+
+  .bio-image {
+    max-height: 40vh; /* Limit the height of the image */
+    object-fit: cover; /* Maintain aspect ratio and cover the area */
+  }
+</style>
 
 </html>
