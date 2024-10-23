@@ -15,13 +15,13 @@ layout: default
               <div class="carousel-item {% if forloop.first %}active{% endif %}">
                 <div class="row align-items-center" style="min-height: 70vh;"> <!-- Set min-height for flexibility -->
                   <div class="col-md-6">
-                    <img src="{{ bio.image | relative_url }}" alt="{{ bio.name }}" class="bio-image img-fluid" style="max-height: 100%; object-fit: cover;">
+                    <img src="{{ bio.image | relative_url }}" alt="{{ bio.name }}" class="bio-image img-fluid" style="max-height: 8%; object-fit: cover;">
                   </div>                      
                   <div class="col-md-6">
-                    <div class="carousel-caption d-none d-md-block" style="background: rgba(0, 0, 0, 0.7); padding: 20px; border-radius: 5px; text-align: left;">
-                      <h3 style="margin-bottom: 10px;">{{ bio.name }}</h3>
+                    <div class="carousel-caption d-none d-md-block" style="background: rgba(0, 0, 0, 0.7); border-radius: 5px; text-align: left;">
+                      <h3>{{ bio.name }}</h3>
                       <p>{{ bio.bio }}</p>
-                      <p style="margin-bottom: 5px; font-weight: bold;">{{ bio.email }}</p>
+                      <p>{{ bio.email }}</p>
                     </div>
                   </div>
                 </div>
