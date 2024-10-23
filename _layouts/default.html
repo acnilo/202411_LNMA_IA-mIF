@@ -32,10 +32,12 @@
 
     <!-- Carga de Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ "/assets/styles.css" | relative_url }}">
 
 
     {% if site.css_inline == true %}
       {% include site-styles.html %}
+      <link rel="stylesheet" href="{{ "/assets/styles.css" | relative_url }}">
     {% else %}
       <link rel="stylesheet" href="{{ "/assets/styles.css" | relative_url }}">
     {% endif %}
