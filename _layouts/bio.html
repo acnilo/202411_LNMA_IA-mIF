@@ -5,9 +5,7 @@ layout: default
 {% include site-header.html %}
 
 <main class="main container">
-
   <div class="content">
-
     <article class="article article--page typeset">
 
       {% if site.bios %}
@@ -15,11 +13,11 @@ layout: default
           <div class="carousel-inner">
             {% for bio in site.bios %}
               <div class="carousel-item {% if forloop.first %}active{% endif %}">
-                <img src="{{ bio.image }}" alt="{{ bio.name }}" class="d-block w-100">
+                <img src="{{ bio.image | relative_url }}" alt="{{ bio.name }}" class="d-block w-100">
                 <div class="carousel-caption d-none d-md-block">
                   <h1>{{ bio.name }}</h1>
                   <p>{{ bio.role }}</p>
-                  <h3>{{ bio.bio | markdownify }}</h3>
+                  <h3>{{ bio.bio }}</h3>
                 </div>
               </div>
             {% endfor %}
@@ -40,11 +38,9 @@ layout: default
       {% endif %}
 
     </article>
-
   </div>
 
   {% if page.aside == true %}{% include site-aside.html %}{% endif %}
-
 </main>
 
 {% include site-footer.html %}
@@ -52,7 +48,7 @@ layout: default
 <!-- Bootstrap CSS -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
-<!-- jQuery, Popper.js, and Bootstrap JS -->
+<!-- jQuery and Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
