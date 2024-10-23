@@ -11,14 +11,13 @@ layout: default
     <article class="article article--page typeset">
 
       {% if site.bios %}
-        <h1>Bios</h1>
         <section class="carousel slide" id="bioCarousel" data-ride="carousel">
           <div class="carousel-inner">
             {% for bio in site.bios %}
               <div class="carousel-item {% if forloop.first %}active{% endif %}">
                 <img src="{{ bio.image }}" alt="{{ bio.name }}" class="d-block w-100">
                 <div class="carousel-caption d-none d-md-block">
-                  <h3>{{ bio.name }}</h3>
+                  <h1>{{ bio.name }}</h1>
                   <p>{{ bio.role }}</p>
                   <h3>{{ bio.bio }}</h3>
                 </div>
