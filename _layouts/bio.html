@@ -13,7 +13,7 @@ layout: default
           <div class="carousel-inner">
             {% for bio in site.bios %}
               <div class="carousel-item {% if forloop.first %}active{% endif %}">
-                <div class="row align-items-center" style="height: 100vh;"> <!-- Set a specific height for the row -->
+                <div class="row align-items-start" style="height: 50vh;"> <!-- Set a specific height for the row -->
                   <div class="col-md-5 d-flex justify-content-center align-items-start">
                     <img src="{{ bio.image | relative_url }}" alt="{{ bio.name }}" class="bio-image" style="max-height: 100%; object-fit: cover;"">
                   </div>
