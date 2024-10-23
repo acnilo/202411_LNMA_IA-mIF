@@ -19,10 +19,8 @@ layout: default
                 <div class="carousel-caption d-none d-md-block" style="background: rgba(0, 0, 0, 0.7); padding: 20px; border-radius: 5px; text-align: center; position: static;">
                   <h4 style="margin-bottom: 10px;">{{ bio.name }}</h4>
                   <p style="text-align: justify;">{{ bio.bio }}</p>
-                  <p style="margin-bottom: 5px;">{{ bio.email }}</p>
                   <p>
-                    <strong>Contacto:</strong> 
-                    <a href="mailto:{{ bio.email }}" style="color: white;">Enviar correo</a>
+                    Contacto: <a href="mailto:{{ bio.email }}" style="color: white;">{{ bio.email }}</a>
                   </p>
                 </div>
               </div>
@@ -56,3 +54,11 @@ layout: default
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<style>
+.carousel-control-prev,
+.carousel-control-next {
+  top: 50%; /* Ajusta esto para moverlas verticalmente */
+  transform: translateY(-50%); /* Centra las flechas verticalmente */
+}
+</style>
