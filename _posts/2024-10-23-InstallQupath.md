@@ -19,4 +19,4 @@ image: "https://picsum.photos/2560/600?image=733"
 
 ### Video de instalación
 
-{% include video.html id="4RqV4QpYFo0" title="Tutorial instalación de QuPath" %}
+{% include video.html id="4RqV4QpYFo0" title="Tutorial de instalación de QuPath" %}
