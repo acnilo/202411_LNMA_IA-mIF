@@ -19,7 +19,7 @@ layout: default
                 <div class="carousel-caption d-none d-md-block">
                   <h1>{{ bio.name }}</h1>
                   <p>{{ bio.role }}</p>
-                  <h3>{{ bio.bio }}</h3>
+                  <h3>{{ bio.bio | markdownify }}</h3>
                 </div>
               </div>
             {% endfor %}
