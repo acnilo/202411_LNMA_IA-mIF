@@ -13,16 +13,13 @@ layout: default
           <div class="carousel-inner">
             {% for bio in site.bios %}
               <div class="carousel-item {% if forloop.first %}active{% endif %}">
-                <div class="row align-items-start" style="height: 50vh;"> <!-- Set a specific height for the row -->
                   <div class="col-md-5 d-flex justify-content-center align-items-start">
                     <img src="{{ bio.image | relative_url }}" alt="{{ bio.name }}" class="bio-image" style="max-height: 100%; object-fit: cover;"">
-                  </div>
-                  <div class="col-md-7 d-flex justify-content-center align-items-center"> <!-- Make the text column wider -->
-                    <div class="carousel-caption d-none d-md-block" style="background: rgba(0, 0, 0, 0.7); padding: 10px; border-radius: 5px; text-align: left; height: auto; max-height: 90vh; overflow-y: auto;">
+                  </div>                  
+                  <div class="carousel-caption d-none d-md-block" style="background: rgba(0, 0, 0, 0.7); padding: 10px; border-radius: 5px; text-align: left; height: auto; max-height: 90vh; overflow-y: auto;">
                       <h4 style="margin-bottom: 10px;">{{ bio.name }}</h4>
                       <p>{{ bio.bio }}</p>
                       <p style="margin-bottom: 5px;">{{ bio.email }}</p>
-                    </div>
                   </div>
                 </div>
               </div>
