@@ -12,20 +12,20 @@ layout: default
         <section class="carousel slide" id="bioCarousel" data-ride="carousel">
           <div class="carousel-inner">
             {% for bio in site.bios %}
-              <div class="carousel-item {% if forloop.first %}active{% endif %}">
-                <div class="row">
-                  <div class="col-md-6">
-                    <img src="{{ bio.image | relative_url }}" alt="{{ bio.name }}" class="bio-image d-block w-100">
-                  </div>
-                  <div class="col-md-6">
-                    <div class="carousel-caption d-none d-md-block">
-                      <h1>{{ bio.name }}</h1>
-                      <p>{{ bio.role }}</p>
-                      <p>{{ bio.bio }}</p>
+                  <div class="carousel-item {% if forloop.first %}active{% endif %}">
+                    <div class="row align-items-center" style="height: 60vh;"> <!-- Set height for the row -->
+                      <div class="col-md-6">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h3>{{ bio.name }}</h3>
+                          <p>{{ bio.role }}</p>
+                          <p>{{ bio.bio }}</p>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <img src="{{ bio.image | relative_url }}" alt="{{ bio.name }}" class="bio-image d-block w-100">
+                      </div>
                     </div>
-                  </div>                  
-                </div>
-              </div>
+                  </div>
             {% endfor %}
           </div>
           <a class="carousel-control-prev" href="#bioCarousel" role="button" data-slide="prev">
