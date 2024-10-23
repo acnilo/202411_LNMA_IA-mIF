@@ -1,7 +1,7 @@
 ---
 layout: bio
-name: "Haydee Hernandez"
+name: "Jane Doe"
 role: "Instructor"
-bio: "A short biography about Haydee."
+bio: "A short biography about Jane."
 image: /assets/Imagenes/FotoIlustrativaHorizontal.png
 ---
