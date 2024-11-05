@@ -4,13 +4,13 @@ date: 2024-10-24
 categories:
 - Qupath
 excerpt: |
-  Guía de instalación de QuPath
+  Creación de proyectos en QuPath
 feature_text: |
   ##  Proyectos QuPath  
 feature_image: "https://picsum.photos/2560/600?image=733"
 image: "https://picsum.photos/2560/600?image=733"
 ---
-## ¿Qué es un proyecto en QuPath
+## ¿Qué es un proyecto en QuPath?
 QuPath permite ver y trabajar con imágenes individuales, pero si planeas guardar y recargar datos asociados con varias imágenes, se recomienda usar un proyecto.
 <ul>
     <li>Agrupar imágenes relacionadas</li>
