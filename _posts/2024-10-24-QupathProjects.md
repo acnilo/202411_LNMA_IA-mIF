@@ -19,8 +19,6 @@ QuPath permite ver y trabajar con imágenes individuales, pero si planeas guarda
     <li>Ver una miniatura más grande y algunos datos del archivo al pasar el ratón sobre una imagen, sin tener que abrirla por completo</li>
 </ul>
 
-[Ver guía de instalación en todas las plataformas](https://qupath.readthedocs.io/en/stable/docs/intro/installation.html)
-
 ---
 ### Crear un proyecto en QuPath
 
