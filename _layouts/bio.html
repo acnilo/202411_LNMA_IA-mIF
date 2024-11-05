@@ -5,7 +5,6 @@ layout: default
 {% include site-header.html %}
 
 <main class="main container">
-  <div class="content">
     <article class="article article--page typeset">
 
       {% if site.bios %}
@@ -40,12 +39,9 @@ layout: default
         <p>No bios available.</p>
       {% endif %}
       </article>
-  </div>
 
   {% if page.aside == true %}{% include site-aside.html %}{% endif %}
 </main>
-
-{% include site-footer.html %}
 
 <style>
 .carousel-control-prev,
