@@ -24,4 +24,4 @@ QuPath permite ver y trabajar con imágenes individuales, pero si planeas guarda
 ---
 ### Crear un proyecto en QuPath
 
-{% include video.html id="kCEp89ypmAY title="Tutorial creación de proyecto en QuPath" %}
+{% include video.html id="kCEp89ypmAY" title="Tutorial creación de proyecto en QuPath" %}
