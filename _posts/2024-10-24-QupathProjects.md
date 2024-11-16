@@ -21,7 +21,7 @@ QuPath permite ver y trabajar con imágenes individuales, pero si planeas guarda
 ---
 ### Crear un proyecto en QuPath
 
-### **1. Crear una carpeta de proyecto**
+#### **1. Crear una carpeta de proyecto**
 - Crea una carpeta vacía en tu computadora.
 - Configúrala como carpeta del proyecto mediante una de las siguientes opciones:
   - **Menú**: Archivo ‣ Proyecto… ‣ Crear nuevo proyecto.
@@ -32,7 +32,7 @@ La carpeta debe estar vacía, ya que QuPath gestionará su contenido. No añadas
 
 ---
 
-### **2. Agregar imágenes al proyecto**
+#### **2. Agregar imágenes al proyecto**
 - Arrastra las imágenes hacia la ventana de QuPath.  
 - Configura las opciones de importación en el diálogo que aparecerá.  
 
