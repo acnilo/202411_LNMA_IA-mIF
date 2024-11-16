@@ -25,8 +25,6 @@ Entre sus funciones principales están:
 
 [Ver guía de instalación en todas las plataformas](https://qupath.readthedocs.io/en/stable/docs/intro/installation.html)
 
----
-
 ### Video de instalación
 
 {% include video.html id="4RqV4QpYFo0" title="Tutorial de instalación de QuPath" %}
