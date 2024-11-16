@@ -1,5 +1,5 @@
 ---
-title: Cración de proyectos en QuPath
+title: Creación de proyectos en QuPath
 date: 2024-10-24
 categories:
 - Qupath
@@ -21,8 +21,8 @@ QuPath permite ver y trabajar con imágenes individuales, pero si planeas guarda
 ### Crear un proyecto en QuPath
 
 #### **1. Crear una carpeta de proyecto**
-- Crea una carpeta vacía en tu computadora.
-- Configúrala como carpeta del proyecto mediante una de las siguientes opciones:
+a. Crea una carpeta vacía en tu computadora.
+b. Configúrala como carpeta del proyecto mediante una de las siguientes opciones:
   - **Archivo** ‣ Proyecto… ‣ Crear nuevo proyecto.
   - **Arrastrar y soltar**: Arrastra la carpeta y suéltala sobre QuPath.  
 
@@ -40,8 +40,8 @@ La carpeta debe estar vacía, ya que QuPath gestionará su contenido. No añadas
 ### Introducción a los objetos en QuPath
 
 #### Tipos de objetos:
-1. **Anotaciones:** Dibujadas manualmente sobre la imagen.  
-2. **Detecciones:** Generadas automáticamente, por ejemplo, células individuales.
+- **Anotaciones:** Dibujadas manualmente sobre la imagen.  
+- **Detecciones:** Generadas automáticamente, por ejemplo, células individuales.
 
 #### Diferencias clave:
 - **Anotaciones**: Pocas y abarcan áreas grandes.  
@@ -52,8 +52,7 @@ La carpeta debe estar vacía, ya que QuPath gestionará su contenido. No añadas
 2. Haz clic y arrastra sobre la imagen.  
 3. Explora herramientas adicionales:
    - Polígono: Haz clic en cada vértice; finaliza con doble clic.
-
-{% include video.html id="BD3R9J3x8aPotvRD" title="Introducción a los objetos en QuPath" %}
+{% include video.html id="FAoUHu40dk0" title="Introducción a los objetos en QuPath" %}
 ---
 
 ### Conteo manual de células
