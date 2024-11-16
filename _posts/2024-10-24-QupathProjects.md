@@ -1,16 +1,15 @@
 ---
-title: 
-date: 2024-10-24  
+title: Cración de proyectos en QuPath
+date: 2024-10-24
 categories:
 - Qupath
+- Proyectos
 excerpt: |
-  Creación de proyectos en QuPath
+  Creación de proyecto en QuPath
 feature_text: |
-  ## Proyectos en QuPath
-feature_image: "https://picsum.photos/2560/600?image=733"
-image: "https://picsum.photos/2560/600?image=733"
+  ##  Proyectos en QuPath  
 ---
-## ¿Qué es un proyecto en QuPath?
+### ¿Qué es un proyecto en QuPath?
 QuPath permite ver y trabajar con imágenes individuales, pero si planeas guardar y recargar datos asociados con varias imágenes, se recomienda usar un proyecto.
 <ul>
     <li>Agrupar imágenes relacionadas</li>
@@ -18,54 +17,48 @@ QuPath permite ver y trabajar con imágenes individuales, pero si planeas guarda
     <li>Organizar tus archivos de datos junto con scripts, clasificadores y otros elementos útiles</li>
     <li>Ver una miniatura más grande y algunos datos del archivo al pasar el ratón sobre una imagen, sin tener que abrirla por completo</li>
 </ul>
-
 ---
 ### Crear un proyecto en QuPath
 
 #### **1. Crear una carpeta de proyecto**
 - Crea una carpeta vacía en tu computadora.
 - Configúrala como carpeta del proyecto mediante una de las siguientes opciones:
-  - **Menú**: Archivo ‣ Proyecto… ‣ Crear nuevo proyecto.
+  - **Archivo** ‣ Proyecto… ‣ Crear nuevo proyecto.
   - **Arrastrar y soltar**: Arrastra la carpeta y suéltala sobre QuPath.  
 
 **Nota:**  
 La carpeta debe estar vacía, ya que QuPath gestionará su contenido. No añadas, elimines ni renombres archivos manualmente.
 
----
-
 #### **2. Agregar imágenes al proyecto**
 - Arrastra las imágenes hacia la ventana de QuPath.  
 - Configura las opciones de importación en el diálogo que aparecerá.  
 
-[**Tutorial**](https://www.youtube.com/watch?v=kCEp89ypmAY)
+{% include video.html id="kCEp89ypmAY" title="Tutorial creación de proyecto en QuPath" %}
 
 ---
 
-## Introducción a los objetos en QuPath
+### Introducción a los objetos en QuPath
 
-### Tipos de objetos:
+#### Tipos de objetos:
 1. **Anotaciones:** Dibujadas manualmente sobre la imagen.  
 2. **Detecciones:** Generadas automáticamente, por ejemplo, células individuales.
 
-### Diferencias clave:
+#### Diferencias clave:
 - **Anotaciones**: Pocas y abarcan áreas grandes.  
 - **Detecciones**: Pueden ser millones, manejadas eficientemente por QuPath.
 
----
-
-## Dibujar anotaciones
+#### Dibujar anotaciones
 1. Selecciona la herramienta de dibujo (Rectángulo, Elipse, Polígono o Pincel).  
 2. Haz clic y arrastra sobre la imagen.  
 3. Explora herramientas adicionales:
    - Polígono: Haz clic en cada vértice; finaliza con doble clic.
 
-[**Tutorial**](https://youtu.be/FAoUHu40dk0?si=BD3R9J3x8aPotvRD)
-
+{% include video.html id="BD3R9J3x8aPotvRD" title="Introducción a los objetos en QuPath" %}
 ---
 
-## Conteo manual de células
+### Conteo manual de células
 
-### **Elegir una región**
+#### **Elegir una región**
 Selecciona un área adecuada en la imagen. Para mayor precisión, usa la herramienta de cuadrícula.
 
 ### **Contar células manualmente**
