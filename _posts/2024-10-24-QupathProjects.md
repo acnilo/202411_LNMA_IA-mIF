@@ -1,11 +1,12 @@
 ---
-title: Proyectos en QuPath
+title: 
 date: 2024-10-24  
 categories:
 - Qupath
 excerpt: |
   Creación de proyectos en QuPath
 feature_text: |
+  ## Proyectos en QuPath
 feature_image: "https://picsum.photos/2560/600?image=733"
 image: "https://picsum.photos/2560/600?image=733"
 ---
