@@ -3,7 +3,6 @@ title: Creación de proyectos en QuPath
 date: 2024-10-24
 categories:
 - Qupath
-- Proyectos
 excerpt: |
   Creación de proyecto en QuPath
 feature_text: |
