@@ -1,9 +1,8 @@
 ---
 title: Instalación de Cellpose
-date: 2024-10-25
+date: 2024-10-24
 categories:
 - Cellpose
-- Instalación
 excerpt: |
   Guía de instalación de Cellpose v3
 feature_text: |
