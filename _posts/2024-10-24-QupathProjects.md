@@ -18,6 +18,7 @@ QuPath permite ver y trabajar con imágenes individuales, pero si planeas guarda
     <li>Ver una miniatura más grande y algunos datos del archivo al pasar el ratón sobre una imagen, sin tener que abrirla por completo</li>
 </ul>
 ---
+
 ### Crear un proyecto en QuPath
 
 **1. Crear una carpeta de proyecto**
@@ -89,7 +90,7 @@ Selecciona un área adecuada en la imagen. Para mayor precisión, usa la herrami
 
 ---
 
-## Detección de tejido con umbrales (threshold)
+### Detección de tejido con umbrales (threshold)
 
 1. Usa **Clasificar ‣ Clasificación de píxeles ‣ Crear umbral** para destacar regiones específicas.  
 2. Haz clic en **Crear objetos** para generar anotaciones basadas en el umbral.  
@@ -98,7 +99,7 @@ Selecciona un área adecuada en la imagen. Para mayor precisión, usa la herrami
 
 ---
 
-## Integración de Cellpose/Omnipose en QuPath
+### Integración de Cellpose/Omnipose en QuPath
 
 **Paso 1: Instalar Cellpose/Omnipose**
 1. Configura un entorno virtual de Python.  
