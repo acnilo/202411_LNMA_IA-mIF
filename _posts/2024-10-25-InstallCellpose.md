@@ -1,6 +1,6 @@
 ---
 title: Instalación de Cellpose
-date: 2024-10-10
+date: 2024-10-25
 categories:
 - Cellpose
 - Instalación
