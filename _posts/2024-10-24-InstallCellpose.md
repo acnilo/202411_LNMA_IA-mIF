@@ -16,7 +16,7 @@ La primera versión de Cellpose fue lanzada en 2020. Fue desarrollada por un equ
 
 
 La documentación completa del proyecto y las actualizaciones puede ser consultada: [aquí](https://cellpose.readthedocs.io/en/latest/)
-El repositorio puede ser consultado en: [GITHUB] (https://github.com/MouseLand/cellpose/blob/main/).
+El repositorio puede ser consultado en: [GITHUB](https://github.com/MouseLand/cellpose/blob/main/).
 
 ---
 Para este taller vamos a utilizar Cellpose de manera local con su interfaz gráfica (GUI), sin embargo es posible utilizar su versión [online](https://www.cellpose.org/) o en su versión en la nube [Google Colab](https://colab.research.google.com/github/MouseLand/cellpose/blob/main/notebooks/Cellpose_cell_segmentation_2D_prediction_only.ipynb).
