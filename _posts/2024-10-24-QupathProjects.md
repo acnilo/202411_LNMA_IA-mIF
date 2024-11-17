@@ -22,8 +22,9 @@ QuPath permite ver y trabajar con imágenes individuales, pero si planeas guarda
 ### Crear un proyecto en QuPath
 
 **1. Crear una carpeta de proyecto**
-a. Crea una carpeta vacía en tu computadora.
-b. Configúrala como carpeta del proyecto mediante una de las siguientes opciones:
+
+1.1. Crea una carpeta vacía en tu computadora.
+1.2. Configúrala como carpeta del proyecto mediante una de las siguientes opciones:
   - **Archivo** ‣ Proyecto… ‣ Crear nuevo proyecto.
   - **Arrastrar y soltar**: Arrastra la carpeta y suéltala sobre QuPath.  
 
@@ -31,6 +32,7 @@ b. Configúrala como carpeta del proyecto mediante una de las siguientes opcione
 La carpeta debe estar vacía, ya que QuPath gestionará su contenido. No añadas, elimines ni renombres archivos manualmente.
 
 **2. Agregar imágenes al proyecto**
+
 - Arrastra las imágenes hacia la ventana de QuPath.  
 - Configura las opciones de importación en el diálogo que aparecerá.  
 
@@ -41,14 +43,17 @@ La carpeta debe estar vacía, ya que QuPath gestionará su contenido. No añadas
 ### Introducción a los objetos en QuPath
 
 **Tipos de objetos:**
+
 - **Anotaciones:** Dibujadas manualmente sobre la imagen.  
 - **Detecciones:** Generadas automáticamente, por ejemplo, células individuales.
 
-#### Diferencias clave:
+**Diferencias clave:**
+
 - **Anotaciones**: Pocas y abarcan áreas grandes.  
 - **Detecciones**: Pueden ser millones, manejadas eficientemente por QuPath.
 
-#### Dibujar anotaciones
+**Dibujar anotaciones**
+
 1. Selecciona la herramienta de dibujo (Rectángulo, Elipse, Polígono o Pincel).  
 2. Haz clic y arrastra sobre la imagen.  
 3. Explora herramientas adicionales:
@@ -59,6 +64,7 @@ La carpeta debe estar vacía, ya que QuPath gestionará su contenido. No añadas
 ### Conteo manual de células
 
 **Elegir una región**
+
 Selecciona un área adecuada en la imagen. Para mayor precisión, usa la herramienta de cuadrícula.
 
 1. Selecciona la herramienta de punto.  
@@ -66,7 +72,6 @@ Selecciona un área adecuada en la imagen. Para mayor precisión, usa la herrami
 3. Cambia categorías de puntos en el panel de conteo.  
 
 {% include video.html id="L-dLnkqHKdY" title="Conteo de células" %}
-[**Tutorial**](https://youtu.be/L-dLnkqHKdY?si=MduoX4cxOXr5fmve)
 
 ---
 
@@ -86,7 +91,6 @@ Selecciona un área adecuada en la imagen. Para mayor precisión, usa la herrami
 3. Exporta los datos como CSV o copia para otras aplicaciones como Excel.  
 
 {% include video.html id="9P8NsAVfrZE" title="Generación de tablas" %}
-[**Tutorial**](https://youtu.be/9P8NsAVfrZE?si=b8XAQAOBb6xqga39)
 
 ---
 
@@ -95,13 +99,14 @@ Selecciona un área adecuada en la imagen. Para mayor precisión, usa la herrami
 1. Usa **Clasificar ‣ Clasificación de píxeles ‣ Crear umbral** para destacar regiones específicas.  
 2. Haz clic en **Crear objetos** para generar anotaciones basadas en el umbral.  
 
-[**Tutorial**](https://youtu.be/9TmEb3SxS1k?si=C_3E_MjcigQIaleZ)
+{% include video.html id="9TmEb3SxS1k" title="Generación de tablas" %}
 
 ---
 
 ### Integración de Cellpose/Omnipose en QuPath
 
 **Paso 1: Instalar Cellpose/Omnipose**
+
 1. Configura un entorno virtual de Python.  
 2. Instala Cellpose y/o Omnipose siguiendo las guías en sus repositorios:  
    - [Cellpose](https://github.com/MouseLand/cellpose)  
@@ -111,11 +116,10 @@ Selecciona un área adecuada en la imagen. Para mayor precisión, usa la herrami
    - Con `conda`: `conda install scikit-image`.
 
 **Paso 2: Configurar la extensión de Cellpose en QuPath**
+
 1. Descarga el archivo `qupath-extension-cellpose-[version].zip`.  
 2. Instálalo arrastrando el `.jar` a la ventana principal de QuPath.  
 3. Configura las preferencias en **Editar > Preferencias > Cellpose/Omnipose**:  
    - Proporciona las rutas de los ejecutables de Python para Cellpose y Omnipose.
-
-[**Tutorial GitHub**](https://github.com/BIOP/qupath-extension-cellpose)  
 
 {% include video.html id="A_PW_N0np9A" title="Cellpose/Omnipose en QuPath" %}
