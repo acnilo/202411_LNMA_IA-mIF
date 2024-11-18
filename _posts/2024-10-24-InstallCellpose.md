@@ -37,7 +37,7 @@ Anaconda es una distribución de software libre que incluye herramientas para ci
 
 1. Descarga el instalador desde:  
    [**Anaconda para Windows**](https://repo.anaconda.com/archive/Anaconda3-2024.10-1-Windows-x86_64.exe)  
-   **Imagen 1**: Ejemplo del instalador.
+   ![Instalador de Anaconda](assets/Imagenes/GuiaAnacondaCellpose/imagenAnaconda1.png "Pantalla del instalador")
 
 2. Ejecuta el instalador y sigue estos pasos:
    - Acepta los términos y condiciones.
@@ -73,6 +73,7 @@ Una vez creado, el ambiente estará disponible en la lista de entornos. Para sel
 3. En la terminal, escribe el siguiente comando y presiona Enter:  
    ```bash
    python -m pip install cellpose[gui]
+   ```
 4. Una vez completada la instalación, debería verse un mensaje confirmando la instalación exitosa.
 Imagen 7: Mensaje de confirmación.
 
@@ -81,6 +82,7 @@ Imagen 7: Mensaje de confirmación.
 1. Desde la terminal del ambiente, ejecuta el comando:
    ```bash
    cellpose --gui
+   ```
 2. Esto abrirá la interfaz gráfica (GUI) de Cellpose lista para usarse.
 Imagen 8: Interfaz de Cellpose GUI.
 
