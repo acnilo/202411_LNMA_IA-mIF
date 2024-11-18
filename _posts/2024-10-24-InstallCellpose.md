@@ -67,11 +67,12 @@ Los entornos de Conda permiten gestionar paquetes y sus dependencias de manera a
 1. Selecciona el ambiente **TallerMultiplex-IA** en la lista de entornos.
 2. Haz clic en **Open terminal**.  
    ![Iniciar ambiente](/202411_LNMA_IA-mIF/assets/Imagenes/GuiaAnacondaCellpose/iniciarTerminalAmbiente.png)
-3. En la terminal, escribe el siguiente comando y presiona Enter:  
+   
+4. En la terminal, escribe el siguiente comando y presiona Enter:  
    ```bash
    python -m pip install cellpose[gui]
    ```
-4. Una vez completada la instalación, debería verse un mensaje confirmando la instalación exitosa.
+5. Una vez completada la instalación, debería verse un mensaje confirmando la instalación exitosa.
  ![Desarrollo instalacion Cellpose](/202411_LNMA_IA-mIF/assets/Imagenes/GuiaAnacondaCellpose/instalacionCellpose.png)
 
 #### **Paso 4: Ejecutar Cellpose**
@@ -81,6 +82,7 @@ Los entornos de Conda permiten gestionar paquetes y sus dependencias de manera a
    python -m cellpose
    ```
 ![Vista instalacion Cellpose](/202411_LNMA_IA-mIF/assets/Imagenes/GuiaAnacondaCellpose/comandoAbrirCellpose.png)
+
 2. Esto abrirá la interfaz gráfica (GUI) de Cellpose lista para usarse.
 ![Vista Cellpose](/202411_LNMA_IA-mIF/assets/Imagenes/GuiaAnacondaCellpose/vistaCellposeGUI.png)
 
