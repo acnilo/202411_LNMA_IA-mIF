@@ -1,5 +1,5 @@
 ---
-title: Anaconda y Cellpose
+title: Cellpose
 date: 2024-10-24
 categories:
 - Cellpose
@@ -19,15 +19,17 @@ Consulta más información en:
 
 ---
 
+### ¿Qué es Anaconda?
+
+Anaconda es una distribución de software libre que incluye herramientas para ciencia de datos y aprendizaje automático, facilitando la administración de paquetes y entornos de Python y R.
+
+---
+
 ### Instalación de Cellpose v3 GUI utilizando Anaconda
 
 Para este taller, utilizaremos la interfaz gráfica (GUI) de Cellpose instalada de manera local. También es posible trabajar con sus versiones online:  
 - **[Cellpose Online](https://www.cellpose.org/)**  
 - **[Cellpose Google Colab](https://colab.research.google.com/github/MouseLand/cellpose/blob/main/notebooks/Cellpose_cell_segmentation_2D_prediction_only.ipynb)**  
-
-### ¿Qué es Anaconda?
-
-Anaconda es una distribución de software libre que incluye herramientas para ciencia de datos y aprendizaje automático, facilitando la administración de paquetes y entornos de Python y R.
 
 ---
 
