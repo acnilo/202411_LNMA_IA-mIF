@@ -4,25 +4,84 @@ date: 2024-10-24
 categories:
 - Cellpose
 excerpt: |
-  Guía de instalación de Cellpose v3
+  Guía de instalación de Cellpose v3 con Anaconda.
 feature_text: |
-  ##  Guía de instalación de Cellpose v3
+  ## Guía de instalación de Cellpose v3
 feature_image: "https://picsum.photos/2560/600?image=733"
 image: "https://picsum.photos/2560/600?image=733"
 ---
-Cellpose es una herramienta de segmentación de imágenes basada en inteligencia artificial (IA) diseñada para segmentar células en imágenes biomédicas, especialmente en microscopía. Utiliza redes neuronales profundas para identificar y delimitar automáticamente las células en diferentes tipos de imágenes de microscopía. Cellpose está entrenado para trabajar con una amplia variedad de tipos de células y condiciones experimentales, lo que lo convierte en una herramienta útil para la investigación biológica y médica, simplificando el análisis de imágenes y aumentando la precisión y la velocidad en comparación con los métodos manuales tradicionales. Además, la herramienta es de código abierto y está disponible para la comunidad científica, permitiendo su personalización y expansión.
 
-La primera versión de Cellpose fue lanzada en 2020. Fue desarrollada por un equipo de investigadores liderado por Janelia Research Campus, en el laboratorio de Branton Lee y Charles E. Boone, como parte de un esfuerzo para proporcionar una herramienta automatizada y accesible para la segmentación de células en imágenes microscópicas.
+## Introducción a Cellpose
 
+Cellpose es una herramienta de segmentación de imágenes basada en inteligencia artificial (IA) diseñada para identificar células en imágenes biomédicas, especialmente en microscopía. Desarrollada inicialmente en el laboratorio de Branton Lee y Charles E. Boone, su propósito es proporcionar una herramienta automatizada, accesible y precisa para la investigación biológica y médica.
 
-La documentación completa del proyecto y las actualizaciones puede ser consultada: [aquí](https://cellpose.readthedocs.io/en/latest/)
-El repositorio puede ser consultado en: [GITHUB](https://github.com/MouseLand/cellpose/blob/main/).
+Consulta más información en:  
+- **Documentación oficial**: [Cellpose Docs](https://cellpose.readthedocs.io/en/latest/)  
+- **Repositorio GitHub**: [Cellpose GitHub](https://github.com/MouseLand/cellpose/blob/main/)
 
 ---
-Para este taller vamos a utilizar Cellpose de manera local con su interfaz gráfica (GUI), sin embargo es posible utilizar su versión [online](https://www.cellpose.org/) o en su versión en la nube [Google Colab](https://colab.research.google.com/github/MouseLand/cellpose/blob/main/notebooks/Cellpose_cell_segmentation_2D_prediction_only.ipynb).
 
-### Instalación de Anaconda
+### Instalación de Cellpose v3 GUI utilizando Anaconda
 
-### 
+Para este taller, utilizaremos la interfaz gráfica (GUI) de Cellpose instalada de manera local. También es posible trabajar con sus versiones online:  
+- **[Cellpose Online](https://www.cellpose.org/)**  
+- **[Cellpose Google Colab](https://colab.research.google.com/github/MouseLand/cellpose/blob/main/notebooks/Cellpose_cell_segmentation_2D_prediction_only.ipynb)**  
+
+### ¿Qué es Anaconda?
+
+Anaconda es una distribución de software libre que incluye herramientas para ciencia de datos y aprendizaje automático, facilitando la administración de paquetes y entornos de Python y R.
+
+---
+
+#### **Paso 1: Descargar e instalar Anaconda**
+
+1. Descarga el instalador desde:  
+   [**Anaconda para Windows**](https://repo.anaconda.com/archive/Anaconda3-2024.10-1-Windows-x86_64.exe)  
+   **Imagen 1**: Ejemplo del instalador.
+
+2. Ejecuta el instalador y sigue estos pasos:
+   - Acepta los términos y condiciones.
+   - Instala Anaconda en una cuenta local para evitar conflictos futuros.
+   - Configura Anaconda como el programa predeterminado para ejecutar Python.  
+   **Imagen 2**: Aceptación de términos.
+
+3. Haz clic en **Install** para iniciar la instalación.  
+   **Imagen 3**: Botón de instalación.
+
+
+#### **Paso 2: Crear un ambiente en Anaconda**
+
+Los entornos de Conda permiten gestionar paquetes y sus dependencias de manera aislada, evitando conflictos entre proyectos.
+
+1. Ve a la sección de **Environments**.  
+2. Haz clic en **Create**.  
+   **Imagen 4**: Creación de un nuevo ambiente.
+
+3. Configura el ambiente:
+   - **Name**: TallerMultiplex-IA  
+   - **Python version**: 3.12.7  
+4. Haz clic en **Create**.  
+
+Una vez creado, el ambiente estará disponible en la lista de entornos. Para seleccionarlo, simplemente haz clic en él.  
+**Imagen 5**: Vista del ambiente creado.
+
+#### **Paso 3: Instalar Cellpose en el ambiente creado**
+
+1. Selecciona el ambiente **TallerMultiplex-IA** en la lista de entornos.
+2. Haz clic en **Open terminal**.  
+   **Imagen 6**: Apertura de terminal desde el ambiente.
+3. En la terminal, escribe el siguiente comando y presiona Enter:  
+   ```bash
+   python -m pip install cellpose[gui]
+4. Una vez completada la instalación, debería verse un mensaje confirmando la instalación exitosa.
+Imagen 7: Mensaje de confirmación.
+
+#### **Paso 4: Ejecutar Cellpose**
+
+1. Desde la terminal del ambiente, ejecuta el comando:
+   ```bash
+   cellpose --gui
+2. Esto abrirá la interfaz gráfica (GUI) de Cellpose lista para usarse.
+Imagen 8: Interfaz de Cellpose GUI.
 
 
