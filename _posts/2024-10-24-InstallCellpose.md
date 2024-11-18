@@ -37,7 +37,7 @@ Anaconda es una distribución de software libre que incluye herramientas para ci
 
 1. Descarga el instalador desde:  
    [**Anaconda para Windows**](https://repo.anaconda.com/archive/Anaconda3-2024.10-1-Windows-x86_64.exe)  
-   ![Instalador de Anaconda](../assets/Imagenes/GuiaAnacondaCellpose/imagenAnaconda1.png)
+   ![Instalador de Anaconda]("../assets/Imagenes/GuiaAnacondaCellpose/imagenAnaconda1.png")
 
 2. Ejecuta el instalador y sigue estos pasos:
    - Acepta los términos y condiciones.
