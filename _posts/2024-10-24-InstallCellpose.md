@@ -40,14 +40,14 @@ Anaconda es una distribución de software libre que incluye herramientas para ci
    ![Instalador de Anaconda](/202411_LNMA_IA-mIF/assets/Imagenes/GuiaAnacondaCellpose/imagenAnaconda1.png)
 
 2. Ejecuta el instalador y sigue estos pasos:
+   - Da clic en continuar "Next".
    - Acepta los términos y condiciones.
-   - Instala Anaconda en una cuenta local para evitar conflictos futuros.
-   - Configura Anaconda como el programa predeterminado para ejecutar Python.  
-   **Imagen 2**: Aceptación de términos.
-
+   - Instala Anaconda en una cuenta local para evitar conflictos futuros y da clic en siguiente.
+     ![Instalación en cuenta local](/202411_LNMA_IA-mIF/assets/Imagenes/GuiaAnacondaCellpose/justme.png)
+   - Configura Anaconda como el programa predeterminado para ejecutar Python. Solo selecciona la tercer casilla.
+     
 3. Haz clic en **Install** para iniciar la instalación.  
-   **Imagen 3**: Botón de instalación.
-
+   ![Botón instalación](/202411_LNMA_IA-mIF/assets/Imagenes/GuiaAnacondaCellpose/installAnaconda.png)
 
 #### **Paso 2: Crear un ambiente en Anaconda**
 
@@ -55,27 +55,24 @@ Los entornos de Conda permiten gestionar paquetes y sus dependencias de manera a
 
 1. Ve a la sección de **Environments**.  
 2. Haz clic en **Create**.  
-   **Imagen 4**: Creación de un nuevo ambiente.
-
 3. Configura el ambiente:
    - **Name**: TallerMultiplex-IA  
    - **Python version**: 3.12.7  
-4. Haz clic en **Create**.  
-
-Una vez creado, el ambiente estará disponible en la lista de entornos. Para seleccionarlo, simplemente haz clic en él.  
-**Imagen 5**: Vista del ambiente creado.
+4. Haz clic en **Create**.
+   ![Crear ambiente](/202411_LNMA_IA-mIF/assets/Imagenes/GuiaAnacondaCellpose/crearAmbienteAnaconda.png)
+5. Una vez creado, el ambiente estará disponible en la lista de entornos. Para seleccionarlo, simplemente haz clic en él.   
 
 #### **Paso 3: Instalar Cellpose en el ambiente creado**
 
 1. Selecciona el ambiente **TallerMultiplex-IA** en la lista de entornos.
 2. Haz clic en **Open terminal**.  
-   **Imagen 6**: Apertura de terminal desde el ambiente.
+   ![Iniciar ambiente](/202411_LNMA_IA-mIF/assets/Imagenes/GuiaAnacondaCellpose/iniciarTerminalAmbiente.png)
 3. En la terminal, escribe el siguiente comando y presiona Enter:  
    ```bash
    python -m pip install cellpose[gui]
    ```
 4. Una vez completada la instalación, debería verse un mensaje confirmando la instalación exitosa.
-Imagen 7: Mensaje de confirmación.
+ ![Desarrollo instalacion Cellpose](/202411_LNMA_IA-mIF/assets/Imagenes/GuiaAnacondaCellpose/instalacionCellpose.png)
 
 #### **Paso 4: Ejecutar Cellpose**
 
@@ -83,7 +80,8 @@ Imagen 7: Mensaje de confirmación.
    ```bash
    python -m cellpose
    ```
+![Vista instalacion Cellpose](/202411_LNMA_IA-mIF/assets/Imagenes/GuiaAnacondaCellpose/comandoAbrirCellpose.png)
 2. Esto abrirá la interfaz gráfica (GUI) de Cellpose lista para usarse.
-Imagen 8: Interfaz de Cellpose GUI.
+![Vista Cellpose](/202411_LNMA_IA-mIF/assets/Imagenes/GuiaAnacondaCellpose/vistaCellposeGUI.png)
 
 
