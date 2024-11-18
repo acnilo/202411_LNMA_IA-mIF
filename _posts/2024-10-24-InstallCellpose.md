@@ -31,6 +31,7 @@ Anaconda es una distribución de software libre que incluye herramientas para ci
 
 ---
 
+#### Instalación de Anaconda
 ##### **Paso 1: Descargar e instalar Anaconda**
 
 1. Descarga el instalador desde:  
@@ -58,9 +59,13 @@ Los entornos de Conda permiten gestionar paquetes y sus dependencias de manera a
    - **Python version**: 3.12.7  
 4. Haz clic en **Create**.
    ![Crear ambiente](/202411_LNMA_IA-mIF/assets/Imagenes/GuiaAnacondaCellpose/crearAmbienteAnaconda.png)
-5. Una vez creado, el ambiente estará disponible en la lista de entornos. Para seleccionarlo, simplemente haz clic en él.   
+5. Una vez creado, el ambiente estará disponible en la lista de entornos. Para seleccionarlo, simplemente haz clic en él.
 
-##### **Paso 3: Instalar Cellpose en el ambiente creado**
+---
+
+#### Instalación de Cellpose
+
+##### **Paso 1: Instalar Cellpose en el ambiente creado**
 
 1. Selecciona el ambiente **TallerMultiplex-IA** en la lista de entornos.
 2. Haz clic en **Open terminal**.  
@@ -73,7 +78,7 @@ Los entornos de Conda permiten gestionar paquetes y sus dependencias de manera a
 5. Una vez completada la instalación, debería verse un mensaje confirmando la instalación exitosa.
  ![Desarrollo instalacion Cellpose](/202411_LNMA_IA-mIF/assets/Imagenes/GuiaAnacondaCellpose/instalacionCellpose.png)
 
-##### **Paso 4: Ejecutar Cellpose**
+##### **Paso 2: Ejecutar Cellpose**
 
 1. Desde la terminal del ambiente, ejecuta el comando:
    ```bash
