@@ -1,5 +1,5 @@
 ---
-title: Instalación de Cellpose
+title:
 date: 2024-10-24
 categories:
 - Cellpose
@@ -10,8 +10,6 @@ feature_text: |
 feature_image: "https://picsum.photos/2560/600?image=733"
 image: "https://picsum.photos/2560/600?image=733"
 ---
-
-## Introducción a Cellpose
 
 Cellpose es una herramienta de segmentación de imágenes basada en inteligencia artificial (IA) diseñada para identificar células en imágenes biomédicas, especialmente en microscopía. Desarrollada inicialmente en el laboratorio de Branton Lee y Charles E. Boone, su propósito es proporcionar una herramienta automatizada, accesible y precisa para la investigación biológica y médica.
 
@@ -33,7 +31,7 @@ Anaconda es una distribución de software libre que incluye herramientas para ci
 
 ---
 
-#### **Paso 1: Descargar e instalar Anaconda**
+##### **Paso 1: Descargar e instalar Anaconda**
 
 1. Descarga el instalador desde:  
    [**Anaconda para Windows**](https://repo.anaconda.com/archive/Anaconda3-2024.10-1-Windows-x86_64.exe)  
@@ -49,7 +47,7 @@ Anaconda es una distribución de software libre que incluye herramientas para ci
 3. Haz clic en **Install** para iniciar la instalación.  
    ![Botón instalación](/202411_LNMA_IA-mIF/assets/Imagenes/GuiaAnacondaCellpose/installAnaconda.png)
 
-#### **Paso 2: Crear un ambiente en Anaconda**
+##### **Paso 2: Crear un ambiente en Anaconda**
 
 Los entornos de Conda permiten gestionar paquetes y sus dependencias de manera aislada, evitando conflictos entre proyectos.
 
@@ -62,7 +60,7 @@ Los entornos de Conda permiten gestionar paquetes y sus dependencias de manera a
    ![Crear ambiente](/202411_LNMA_IA-mIF/assets/Imagenes/GuiaAnacondaCellpose/crearAmbienteAnaconda.png)
 5. Una vez creado, el ambiente estará disponible en la lista de entornos. Para seleccionarlo, simplemente haz clic en él.   
 
-#### **Paso 3: Instalar Cellpose en el ambiente creado**
+##### **Paso 3: Instalar Cellpose en el ambiente creado**
 
 1. Selecciona el ambiente **TallerMultiplex-IA** en la lista de entornos.
 2. Haz clic en **Open terminal**.  
@@ -75,7 +73,7 @@ Los entornos de Conda permiten gestionar paquetes y sus dependencias de manera a
 5. Una vez completada la instalación, debería verse un mensaje confirmando la instalación exitosa.
  ![Desarrollo instalacion Cellpose](/202411_LNMA_IA-mIF/assets/Imagenes/GuiaAnacondaCellpose/instalacionCellpose.png)
 
-#### **Paso 4: Ejecutar Cellpose**
+##### **Paso 4: Ejecutar Cellpose**
 
 1. Desde la terminal del ambiente, ejecuta el comando:
    ```bash
