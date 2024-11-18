@@ -1,5 +1,5 @@
 ---
-title:
+title: Anaconda y Cellpose
 date: 2024-10-24
 categories:
 - Cellpose
