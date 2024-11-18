@@ -81,7 +81,7 @@ Imagen 7: Mensaje de confirmación.
 
 1. Desde la terminal del ambiente, ejecuta el comando:
    ```bash
-   cellpose --gui
+   python -m cellpose
    ```
 2. Esto abrirá la interfaz gráfica (GUI) de Cellpose lista para usarse.
 Imagen 8: Interfaz de Cellpose GUI.
