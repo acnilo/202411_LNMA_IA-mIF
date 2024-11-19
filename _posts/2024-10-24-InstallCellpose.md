@@ -94,4 +94,5 @@ Los entornos de Conda permiten gestionar paquetes y sus dependencias de manera a
 2. Esto abrirá la interfaz gráfica (GUI) de Cellpose lista para usarse.
 ![Vista Cellpose](/202411_LNMA_IA-mIF/assets/Imagenes/GuiaAnacondaCellpose/vistaCellposeGUI.png)
 
+![Cellpose parámetros](/202411_LNMA_IA-mIF/assets/Imagenes/GuiaAnacondaCellpose/cellpose_gui.png)
 
