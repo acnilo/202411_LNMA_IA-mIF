@@ -41,6 +41,7 @@ Para este taller, utilizaremos la interfaz gráfica (GUI) de Cellpose instalada 
    ![Instalador de Anaconda](/202411_LNMA_IA-mIF/assets/Imagenes/GuiaAnacondaCellpose/imagenAnaconda1.png)
 
 2. Ejecuta el instalador y sigue estos pasos:
+   
    - Da clic en continuar "Next".
    - Acepta los términos y condiciones.
    - Instala Anaconda en una cuenta local para evitar conflictos futuros y da clic en siguiente.
@@ -57,8 +58,10 @@ Los entornos de Conda permiten gestionar paquetes y sus dependencias de manera a
 1. Ve a la sección de **Environments**.  
 2. Haz clic en **Create**.  
 3. Configura el ambiente:
+   
    - **Name**: TallerMultiplex-IA  
-   - **Python version**: 3.12.7  
+   - **Python version**: 3.12.7
+   - 
 4. Haz clic en **Create**.
    ![Crear ambiente](/202411_LNMA_IA-mIF/assets/Imagenes/GuiaAnacondaCellpose/crearAmbienteAnaconda.png)
 5. Una vez creado, el ambiente estará disponible en la lista de entornos. Para seleccionarlo, simplemente haz clic en él.
